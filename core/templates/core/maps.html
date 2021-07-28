@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maps</title>
+	<link rel="stylesheet" type="text/css" href="estiloapi.css">
+</head>
+<body style="background: linear-gradient(-45deg,#ffc964, #f8c15c, #ffba3b, orange);">
+	<div class="contenedor">
+		<div class="col-12 col-md-6 col-xl-3">
+			<div class="inicio" style="background: linear-gradient(-45deg,#ffc964, #f8c15c, #ffba3b, orange);">
+				<img src="{% static 'core/img/logo2.png' %}"  alt="logo" width="150">
+				<h1 style="background: linear-gradient(-45deg,#ffc964, #f8c15c, #ffba3b, orange);"> Lugar de entregas</h1>
+			</div>
+	<div id="map"></div>
+<script src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+		</div>
+</div>
+</body>
+</html>
